@@ -1,0 +1,1 @@
+## The purpose of this file is to preserve the dist folder and prevent GitHub from excluding the dist folder.
