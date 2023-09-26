@@ -1,7 +1,8 @@
 ## Note on Scripts
-- npm test: Will execute the in-house Jest testing suite.
-- npm run build: Will build the tables in the database. The database itself will still need to be created.
-- npm run dev: Will run the TypeScript modules in development mode without compiling to JavaScript.
+- npm test: Re-seed the database and execute the in-house Jest testing suite.
+- npm run seed: Build the tables in the database and seed them. An empty database itself will still need to be created before this step.
+- npm run dev: Run the TypeScript modules in development mode without compiling to JavaScript.
+- npm run start: Transpile TypeScript modules into JavaScript and run the server with nodemon to auto-restart.
 
 ## Note on Endpoints
 I created two endpoints:
