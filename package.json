@@ -23,7 +23,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx ts-node ./src/db/init_db.ts && jest",
-    "build": "npx ts-node ./src/db/init_db.ts",
+    "seed": "npx ts-node ./src/db/init_db.ts",
     "dev": "npx ts-node-dev --inspect=9229 --respawn src/server/index.ts",
     "start": "npx tsc && npx nodemon dist/server/index"
   },
