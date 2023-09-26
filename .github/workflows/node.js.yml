@@ -20,7 +20,5 @@ jobs:
         cache: 'npm'
     - name: Install Dependencies
       run: npm ci
-    - name: Seed Database
-      run: npm run seed
     - name: Run Tests
       run: npm test
