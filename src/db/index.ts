@@ -10,7 +10,7 @@
 
 // imports
 import client from './client';
-import * as Types from './types';
+import type * as Types from './types';
 import { Developer } from './model';
 
 // exports

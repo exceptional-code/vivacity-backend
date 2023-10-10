@@ -23,6 +23,7 @@ const queryTransaction = async <T>(queryFunction: (client: Types.Client) => Prom
 
         return result;
     } catch (error) {
+        // roll the data back before throwing the error
         await client.query(`ROLLBACK;`);
         throw error;
     };

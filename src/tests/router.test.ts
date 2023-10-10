@@ -39,7 +39,7 @@ describe('Server', () => {
             id: 1,
             firstName: 'Oscar',
             lastName: `Mayer`,
-            description: 'I have a way with B-A-L-O-G-N-A.'
+            description: 'I have a way with B-A-C-K-E-N-D.'
         };
         const res = await request
             .post('/awesome/developer/new')

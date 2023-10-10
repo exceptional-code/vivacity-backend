@@ -6,8 +6,6 @@
 // imports
 import dotenv from 'dotenv';
 import { Client } from 'pg';
-// import pg from 'pg';
-// const { Client }: pg.Client = pg;
 
 // environment
 dotenv.config();
